@@ -1,0 +1,102 @@
+/*this code wont run*/
+body{
+	font-family: Times New Roman;
+	background-image:url(../img/R1.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 0px;
+	overflow: hidden;
+	background-color: rgba(231, 205, 245, .9);
+}
+.nav li{
+	float:left;
+}
+.nav li a{
+	display: inline-block;
+	color: #18011B;
+  font-weight: bold;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+.nav li a:hover{
+	background-color:#C39BC9;
+}
+
+body, li, p {
+	font-family: 'Special Elite', cursive;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Fredericka the Great', cursive;
+}
+
+.body{
+	background-color: rgba(109, 71, 114, .4);
+	padding: 10px 30px 50px 10px;
+	color: white;
+  margin: 10px 15px 10px 15px;
+}
+
+.smileyface{
+  background-color: yellow;
+  border: solid black;
+  height: 300px;
+  width: 300px;
+  position: center;
+  border-radius: 150px;
+  -moz-border-radius: 150px;     
+  -webkit-border-radius: 150px;
+}  
+.smileyface .lefteye{
+  background-color:black; 
+  height: 50px;     
+  width: 50px;     
+  border-radius: 25px;
+  position: relative;
+  top: 100px;
+  right: -50px;
+}
+.smileyface .righteye{ 
+  background-color:black; 
+  height: 50px;     
+  width: 50px;     
+  border-radius: 25px;
+  position: relative;   
+  top: 35px;   
+  right:-200px;   
+} 
+.smileyface .smile{
+  width:100px; 
+  height:10px;  
+  border:solid 5px #000;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 90%/0 0 100px 110px ;
+  position: relative;
+  top: 50px;
+  right: -90px;
+}
+.smileyface .tongue{
+  background: #FF009E;
+  width:10px; 
+  height:10px;  
+  border:solid 10px #FF009E;
+  border-color: transparent transparent #FF009E transparent;
+  border-radius: 50%/ 0 0 100px 100px ;
+  position: relative;
+  top: 50px;
+  right: -130px;
+}
+
+.project-box-1{
+  height: 300px;
+  background-color: #E7CDF5;
+}
+.project-box-2{
+  height: 300px;
+  background-color: #B785D5;
+}
